@@ -1,0 +1,49 @@
+<<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards: História do Brasil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Flashcards: História do Brasil</h1>
+        <p>Revise os principais temas do Ensino Médio e se prepare para o vestibular!</p>
+    </header>
+
+    <main class="container">
+        <div class="flashcard-container" id="flashcard-box">
+            <div class="flashcard">
+                <div class="front">
+                    <span class="categoria" id="categoria">Categoria</span>
+                    <p id="pergunta">Carregando pergunta...</p>
+                    <small>Clique para virar</small>
+                </div>
+                <div class="back">
+                    <h3>Resposta:</h3>
+                    <p id="resposta">Carregando resposta...</p>
+                    <small>Clique para voltar</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="controles">
+            <button id="btn-anterior">Anterior</button>
+            <button id="btn-revelar">Virar Card</button>
+            <button id="btn-proximo">Próximo</button>
+        </div>
+
+        <div class="progresso">
+            <span id="contador">0 / 0</span>
+        </div>
+    </main>
+
+    <footer>
+        <p>Bons estudos! 🚀</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
